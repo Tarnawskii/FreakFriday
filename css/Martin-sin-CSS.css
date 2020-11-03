@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 160%;
+}
+
+body{
+  margin: 0;
+}
+
+p{
+  padding: 1%;;
+}
+
+
+/* Navigasjon */
+
+.navbar{
+  background-color: navy;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+}
+
+.navbar ul{
+  background-color: navy;
+  text-align: center;
+}
+
+.Martin{
+  font-size: 0.5vw;
+  font-family: arial;
+}
+
+.navbar li{
+  text-align: center;
+  display: inline;
+  background-color: navy;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar a{
+  text-align: center;
+  margin: 2%;
+  background-color: navy;
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+.navbar a:hover{
+  color: white;
+  background: blue;
+  opacity: 70%;
+  padding: 1px 1px 1px 1px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+/* Presentasjon */
+
+.intro{
+  text-align: center;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.intro h1{
+  font-size: 1.75em;
+}
+
+.intro p{
+  font-size: 2.5vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.intro img{
+ width: 100%;
+ border-radius: 15px 15px 15px 15px;
+}
+
+.profilepic img{
+  width: 20%;
+}
+
+#welcome{
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+/* Prosjekter */
+
+.projects{
+  text-align: center;
+  text-align: center;
+  display: inline;
+}
+
+.projects h1{
+  font-size: 4vh;
+}
+
+.projects p{
+  font-size: 2.5vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.projects li{ margin: 1%;
+  padding-top: 2%;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.25em;
+  display: inline;
+}
+
+.projects a{
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+
+.projects a:hover{
+  opacity: 70%;
+  overflow: hidden;
+}
+
+#red, #blue,#green{
+  display: inline-grid;
+  overflow: hidden;
+  border-radius: 7px 7px 7px 7px;
+}
+
+#red, #red li, #red a{
+  background-color: lightpink;
+  overflow: hidden;
+
+}
+
+#blue, #blue a{
+  background-color: skyblue;
+  overflow: hidden;
+}
+
+#green, #green a{
+  background-color: rgb(184, 268, 184);
+  overflow: hidden;
+}
+
+#red img, #blue img,#green img{
+  width: 90%;
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+/* Patreon */
+
+.donate{
+  text-align: center;
+}
+
+.donate h1{
+  font-size: 4vh;
+}
+
+.donate a{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.patreon{
+  margin :0;
+  width: 10%;
+}
+
+/* Contact Information */
+
+.contact{
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.contact h2{
+  font-size: 4vh;
+}
+
+.contact a{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#mail{
+  font-weight: bold;
+}
+.contact img{
+  width: 5%;
+}
+
+#disclaimer{
+  font-size: 8px;
+}
+
+/* Større skjerm */
+
+@media screen and (min-width: 1000px) {
+  p{
+    font-size: 1.3em;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .intro h1{
+    font-size: 3em;
+  }
+
+  .projects li{
+    width: 100%;
+  }
+
+  .projects ul{
+    display: flex;
+  }
+
+  #red, #blue, #green{
+  }
+
+  #red img, #blue img,#green img{
+    margin-top: 3%;
+    overflow: hidden;
+  }
